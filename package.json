@@ -1,0 +1,11 @@
+{
+  "name": "Ampersandme.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Ampersandme/Ampersandme.github.io",
+  "author": "Evan Mac <playleed@eckerd.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.2.1"
+  }
+}
