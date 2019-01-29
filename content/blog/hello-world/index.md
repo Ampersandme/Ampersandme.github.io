@@ -1,6 +1,6 @@
 ---
 title: Hello World
-date: '2015-05-01T22:12:03.284Z'
+date: '2019-01-29T22:12:03.284Z'
 ---
 
 This is my first post on my blog! 
@@ -20,6 +20,9 @@ Still holding an optimistic yet uneasy feeling that they might all be possibly m
 
 And now finally in a Gatsby "Blog Template". That I eventually hope will not be recognized as such.  
 
-Till the Next "Hello World"
+Till the Next...
 
-
+	
+~~~~
+Hello World!
+~~~~
