@@ -3,19 +3,23 @@ title: Hello World
 date: '2015-05-01T22:12:03.284Z'
 ---
 
-This is my first post on my new fake blog! How exciting!
+This is my first post on my blog! 
 
-I'm sure I'll write a lot more interesting things in the future.
+The Gatsby template name was "Hello World". However unoriginal it may seem, I still think nothing says I barely know how I've got here, and I've arrived quite like it. 
+A year ago, I was mildly impressed when my python3 installation printed "Hello World!".
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+Capitals. 
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+Exclamation point. 
 
-![Chinese Salty Egg](./salty_egg.jpg)
+A single line of code. 
+
+I've repeated "Hello World" in static HTML, in bold red CSS3 font, in Console.log()'s, plain javascript, React, Markdown, git, mangoDB stored strings, POSTGRES, Node.js..... 
+
+Still holding an optimistic yet uneasy feeling that they might all be possibly meaningless and at the same time completely necessary.
+
+And now finally in a Gatsby "Blog Template". That I eventually hope will not be recognized as such.  
+
+Till the Next "Hello World"
+
+
