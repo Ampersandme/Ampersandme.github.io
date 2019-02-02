@@ -1,0 +1,39 @@
+.icon{
+    transition: color 0.5s,background-color 0.5s;
+    padding:10px;
+    height:4rem;
+    width:4rem !important;
+    border-radius: 50%;
+}
+
+.twitter{
+    color: #00aced;
+}
+
+.linkedin{
+    color: #007bb6;
+}
+
+.github{
+    color: #444;
+}
+
+.codepen{
+    color: #333;
+}
+
+ a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
