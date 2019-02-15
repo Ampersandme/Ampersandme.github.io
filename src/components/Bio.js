@@ -36,15 +36,13 @@ function Bio() {
               <p>
                 Written by <strong>{author}</strong> who is moving to London. Arriving March 6th, 2019
                 {` `}
-                <a href={`https://twitter.com/${social.twitter}`}>
-                  You should follow him on Twitter
-                </a>
+
               </p>
-              <div>
+              <div id="centerItems">
                 <a href="" ><FaTwitter className={styles.icon + " " + styles.twitter} /></a>
                 <a href="" ><FaCodepen className={styles.icon + " " + styles.codepen}/></a>
                 <a href="" ><FaGithub className={styles.icon + " " + styles.github} /></a>
-                <a href="https://www.linkedin.com/in/evanplayle/" ><FaLinkedin className={styles.icon + " " + styles.linkedin} /></a>
+                <a class="link" href="https://www.linkedin.com/in/evanplayle/" ><FaLinkedin className={styles.icon + " " + styles.linkedin} /></a>
               </div>
             </div>
           </div>
@@ -58,7 +56,7 @@ const bioQuery = graphql`
   query BioQuery {
     avatar: file(absolutePath: { regex: "/profile.jpg/" }) {
       childImageSharp {
-        fixed(width: 375, height: 200) {
+        fixed(width: 375, height: 230) {
           ...GatsbyImageSharpFixed
         }
       }
