@@ -5,6 +5,7 @@ import { FaTwitter, FaLinkedin, FaGithub, FaCodepen } from "react-icons/fa";
 import styles from "../styles/link.module.css"
 
 import { rhythm } from '../utils/typography'
+import { red } from 'ansi-colors';
 
 function Bio() {
   return (
@@ -32,7 +33,12 @@ function Bio() {
                 borderRadius: `50%`,
               }}
             />
-            <div>
+            <div
+              style={{
+                textAlign: `center`,
+
+              }}
+            >
               <p>
                 Written by <strong>{author}</strong> who is moving to London. Arriving March 6th, 2019
                 {` `}
