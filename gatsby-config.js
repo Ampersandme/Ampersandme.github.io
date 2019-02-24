@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `A Website`,
     author: `Evan Playle`,
-    description: `A Blog and Linkhub Recording a foolish foray into Coding`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `A Blog and Linkhub recording a foolish foray into Coding`,
+    siteUrl: `https://evanplayle.com/`,
     social: {
       twitter: `evanplayle`,
     },
@@ -58,13 +58,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `A Website by Evan Playle`,
+        short_name: `EvanplaylesWebsite`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/EP-icon.jpg`,
       },
     },
     `gatsby-plugin-offline`,

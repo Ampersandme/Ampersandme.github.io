@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
+import navStyles from '../styles/navbar.module.css'
 import { rhythm, scale } from '../utils/typography'
 
+console.log(navStyles)
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
@@ -14,7 +15,7 @@ class Layout extends React.Component {
         <h1
           style={{
             ...scale(1.5),
-            marginBottom: rhythm(1.5),
+            marginBottom: rhythm(0.75),
             marginTop: 0,
           }}
         >
@@ -61,6 +62,40 @@ class Layout extends React.Component {
         }}
       >
         {header}
+        <div
+          style = {{
+            display: `grid`,
+            gridTemplateColumns: `auto auto auto auto`,
+            gridTemplateRows: `auto`,
+            marginBottom: rhythm(0.75),
+          }}
+        >        
+          <Link 
+            to={`/projects`}
+            className={navStyles.navbarItem}
+          >
+              Projects
+          </Link>
+          <Link 
+            to={`/blog`}
+            className={navStyles.navbarItem}
+          >
+              Blog
+          </Link>
+          <Link 
+            to={`/contact`}
+            className={navStyles.navbarItem}
+          >
+              Contacts
+          </Link>          
+          <Link
+            to={`/about/`}
+            className={navStyles.navbarItem}
+          >
+              About
+          </Link>
+        </div>
+
         {children}
         <footer>
           © {new Date().getFullYear()}, Built with

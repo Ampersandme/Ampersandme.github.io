@@ -29,4 +29,5 @@ div {
 
 body a, body a:link, body a:visited, body a:focus, body a:hover, body a:active {
     text-decoration:none; 
+    box-shadow: none;
   }

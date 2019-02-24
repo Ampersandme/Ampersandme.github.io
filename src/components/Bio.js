@@ -27,7 +27,7 @@ function Bio() {
                 marginRight: rhythm(1 / 2),
                 marginBottom: 0,
                 minWidth: 50,
-                borderRadius: `100%`,
+                borderRadius: `25%`,
               }}
               imgStyle={{
                 borderRadius: `50%`,
@@ -60,9 +60,9 @@ function Bio() {
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile.jpg/" }) {
+    avatar: file(absolutePath: { regex: "/face-pic.jpg/" }) {
       childImageSharp {
-        fixed(width: 375, height: 230) {
+        fixed(width: 400, height: 300) {
           ...GatsbyImageSharpFixed
         }
       }
